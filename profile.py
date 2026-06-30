@@ -63,6 +63,6 @@ for i in range(params.nodeCount):
     # Run the setup script 
     node.addService(pg.Execute(
         shell="bash",
-        command="sudo bash /local/repository/setup-demikernel-cloudlab.sh"))
+        command="sudo bash /local/repository/setup.sh"))
 
 pc.printRequestRSpec(request)
